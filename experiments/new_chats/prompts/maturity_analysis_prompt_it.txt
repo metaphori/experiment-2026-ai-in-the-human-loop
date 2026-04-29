@@ -1,0 +1,18 @@
+Nella cartella docs ci sono le interazioni con ChatGPT, in formato docx, che ho eseguito per eseguire l'analisi di un questionario somministrato agli studenti del terzo e quarto anno dei corsi "Istituto Tecnico Tecnologico - Meccanica, Meccatronica ed Energia" e "Istituto Professionale Industria e Artigianato per il Made in Italy - Calzaturiero Abbigliamento" per valutare la percezione (sentiment) degli studenti rispetto a:
+1) Formazione scolastica artigianale in ambito calzaturiero di alto livello.
+2) Aziende calzaturiere consolidate e con brand ben conosciuti della zona (Savignano e zone limitrofe).
+3) Opportunità occupazionali offerte dal settore e prospettive di carriera.
+Quando mi è stato affidato il compito di analizzare il questionario, non mi era mai capitato di farlo, perciò ho proceduto a macchia d'olio cercando di comprendere bene come procedere.
+
+La prima fase di analisi del questionario utilizzando un LLM ha avuto come obiettivi principali:
+1) Capire come eseguire l'analisi di un questionario come quello somministrato.
+2) Realizzare entro il 7/5/2025 una presentazione al gruppo di progetto con i risultati dell'analisi.
+3) Durante questa fase ho raggiunto la consapevolezza della necessità di compiere un'analisi statistica con strumenti adeguati considerando anche le possibili differenze significative tra sottogruppi: genere degli studenti, anno di corso, corso di studi.
+
+Considerando la prima fase di analisi, per la quale hai estratto le chat salienti che mi hai riportato, ti chiedo agire secondo il metodo "LLM-as-a-judge" stimando il livello di "Maturity" tra l'umano e il LLM analizzando le chat significative che hai estratto. 
+Il modello di Maturity da seguire è quello tra umano e LLM descritto nel paper di Casadei, Delnevo e Mirri che ti allego. Il paper cita il "Maturity Model" descritto in “W. S. Humphrey, Managing the software process, The SEI series in software engineering, AddisonWesley, 1989”.
+Se ti può essere utile, trovi i dati grezzi del questionario nel percorso data/questionario_craftrainer_cleaned.csv di questo progetto. Se ti occorrono altri materiali, informazioni e indicazioni, non esitare a chiedermeli. Nelle chat considera questi tag: 
+<human></human>: racchiudono le interazioni dell’umano (tipicamente richieste)
+<LLM></LLM>: racchiudono le interazioni del LLM (tipicamente risposte)
+<python/>: questo tag sostituisce codice Python prodotto dal LLM che è stato eliminato per ridurre la dimensione della chat da analizzare.
+Ti chiedo di scrivere i risultati su un file md e su un file docx.

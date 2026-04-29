@@ -1,0 +1,5 @@
+Ti chiedo di stimare, sempre riguardo alle chat contenute nella cartella docs quanto sia completo e preciso il background, il contesto iniziale.
+Nelle chat considera questi tag: 
+<human></human>: racchiudono le interazioni dell’umano (tipicamente richieste)
+<LLM></LLM>: racchiudono le interazioni del LLM (tipicamente risposte)
+<python/>: questo tag sostituisce codice Python prodotto dal LLM che è stato eliminato per ridurre la dimensione della chat da analizzare. Ti chiedo di scrivere i risultati su un file md e su un file docx.

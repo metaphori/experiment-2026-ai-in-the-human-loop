@@ -1,0 +1,6 @@
+Ti chiedo di verificare, sempre riguardo alle chat contenute nella cartella docs, se e in quali momenti durante l'interazione umano-LLM, sarebbe stato utile che il LLM fosse proattivo, ad esempio nel chiedere dati aggiuntivi, chiarimenti o comunque maggiori informazioni all'utente umano.
+Nelle chat considera questi tag:
+<human></human>: racchiudono le interazioni dell’umano (tipicamente richieste)
+<LLM></LLM>: racchiudono le interazioni del LLM (tipicamente risposte)
+<python/>: questo tag sostituisce codice Python prodotto dal LLM che è stato eliminato per ridurre la dimensione della chat da analizzare.
+Ti chiedo di scrivere i risultati su un file md e su un file docx con gli stessi contenuti.

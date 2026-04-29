@@ -1,0 +1,7 @@
+Riguardo alle chat completate con ChatGPT per analizzare il questionario, contenute nella cartella docs, ti chiedo di identificare gli istanti, nella cronologia della chat, in cui emergono problemi di interazione; ad esempio, una domanda ripetuta o riformulata da parte dell’umano che suggerisce una risposta insoddisfacente da parte del LLM.
+Se occorre puoi usare i dati CSV del questionario a disposizione.
+Nelle chat considera questi tag:
+<human></human>: racchiudono le interazioni dell’umano (tipicamente richieste)
+<LLM></LLM>: racchiudono le interazioni del LLM (tipicamente risposte)
+<python/>: questo tag sostituisce codice Python prodotto dal LLM che è stato eliminato per ridurre la dimensione della chat da analizzare.
+Ti chiedo di scrivere i risultati su un file md e su un file docx.
